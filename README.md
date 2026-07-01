@@ -7,8 +7,8 @@ It demonstrates how to build a menu-driven system for adding, viewing, searching
 ---
 
 ## 📂 Repository Contents
-- **student_data.py** → Final polished program (run this file).  
-- **student_data(RAW).py** → Original draft version, kept intentionally to show the development journey.  
+- **School_Data.py** → Final polished program (run this file).  
+- **School_Data(RAW).py** → Original draft version, kept intentionally to show the development journey.  
 - **README.md** → Documentation for the project.  
 
 ⚠️ Note: The text file used for storage (`Student_Data.txt`) is **not uploaded**. It will be **created automatically** when the program runs.
@@ -28,4 +28,4 @@ It demonstrates how to build a menu-driven system for adding, viewing, searching
 1. Clone or download this repository.  
 2. Run the polished program:
    ```bash
-   python student_data.py
+   python School_Data.py
