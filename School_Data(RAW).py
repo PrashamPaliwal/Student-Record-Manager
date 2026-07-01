@@ -1,16 +1,16 @@
 # s=0
 def students_data (n,d,r):
     # s+=1
-    f=open('student data','a')
+    f=open('Student_Data.txt','a')
     f.write(f'\n{r} = roll number, stuedents name = {n}, DOB = {d}')
     f.close()
 def read_data():
-    f=open('student data','r')
+    f=open('Student_Data.txt','r')
     print(f.read())
     f.close()
 def read_specific_data(r):
     b=0
-    f=open('student data','r')
+    f=open('Student_Data.txt','r')
     data = f.readlines()
     for i in data:
         if (i.startswith(r)):
@@ -24,10 +24,10 @@ def read_specific_data(r):
 
 def delete_data(r):
     b=0
-    f=open('student data','r')
+    f=open('Student_Data.txt','r')
     data = f.readlines()
     f.close()
-    f=open('student data','w')
+    f=open('Student_Data.txt','w')
     for i in data :
         if not(i.startswith(r)):
             f.write(i)
