@@ -11,7 +11,7 @@ It demonstrates how to build a menu-driven system for adding, viewing, searching
 - **student_data(RAW).py** → Original draft version, kept intentionally to show the development journey.  
 - **README.md** → Documentation for the project.  
 
-⚠️ Note: The text file used for storage (`student data`) is **not uploaded**. It will be **created automatically** when the program runs.
+⚠️ Note: The text file used for storage (`Student_Data.txt`) is **not uploaded**. It will be **created automatically** when the program runs.
 
 ---
 
